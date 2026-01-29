@@ -1,4 +1,5 @@
 🪸 RedSea-Lens: Advanced Coral Reef Health Detection
+
 RedSea-Lens is an end-to-end computer vision pipeline designed to monitor and classify coral reef health in the Red Sea. Leveraging the YOLOv8m architecture, the project focuses on identifying Healthy vs. Bleached corals with high precision, even in challenging underwater optical conditions.
 
 🚀 Key Technical Highlights
