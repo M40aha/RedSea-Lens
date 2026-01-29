@@ -3,6 +3,7 @@
 RedSea-Lens is an end-to-end computer vision pipeline designed to monitor and classify coral reef health in the Red Sea. Leveraging the YOLOv8m architecture, the project focuses on identifying Healthy vs. Bleached corals with high precision, even in challenging underwater optical conditions.
 
 🚀 Key Technical Highlights
+
 Unlike standard detection projects, this repository implements a rigorous data science workflow:
 
 Image Enhancement Layer: Integration of CLAHE (Contrast Limited Adaptive Histogram Equalization) to normalize underwater light scattering.
@@ -11,7 +12,10 @@ Data Integrity Protocol: A custom MD5 Hashing system to verify the uniqueness of
 
 Symmetric Preprocessing: Applied identical enhancement parameters to both training and inference sets for maximum consistency.
 
+
+
 🛠️ The Pipeline Architecture
+
 1. Preprocessing & Contrast Enhancement
 Underwater imagery often suffers from low contrast and blue-green color casts.
 
@@ -29,6 +33,7 @@ Integrity Check: Hashes of unseen images were compared against the training data
 Result: Confirmed 0% overlap, proving the model's ability to generalize to truly new environments.
 
 📊 Model Training & Performance
+
 Architecture: YOLOv8m (Medium).
 
 Training Duration: 2.125 hours on Tesla T4 GPU.
@@ -58,4 +63,5 @@ Inference_Verification.ipynb: Dedicated notebook for CLAHE enhancement, Hashing,
 weights/: Contains the optimized best.pt model file.
 
 💡 Conclusion
+
 This project demonstrates that health monitoring of Red Sea corals can be automated with high reliability through strategic preprocessing and state-of-the-art object detection models.
