@@ -56,11 +56,11 @@ The model successfully identifies coral clusters with confidence scores up to 65
 
 📂 Project Structure
 
-Model_Training.ipynb: The primary training environment.
+RedSea_Lens.ipynb: The primary training environment.
 
 Inference_Verification.ipynb: Dedicated notebook for CLAHE enhancement, Hashing, and final testing.
 
-weights/: Contains the optimized best.pt model file.
+weights: Contains the optimized best.pt model file.
 
 💡 Conclusion
 
