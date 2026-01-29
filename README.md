@@ -13,7 +13,9 @@ Symmetric Preprocessing: Applied identical enhancement parameters to both traini
 
 🛠️ The Pipeline Architecture
 1. Preprocessing & Contrast Enhancement
-Underwater imagery often suffers from low contrast and blue-green color casts. We implemented a CLAHE-based pipeline in the Lab color space to:
+Underwater imagery often suffers from low contrast and blue-green color casts.
+
+We implemented a CLAHE-based pipeline in the Lab color space to:
 
 Enhance the visibility of coral textures without amplifying noise.
 
@@ -42,11 +44,13 @@ Bleached Coral Precision: 53.5% (High sensitivity to critical health indicators)
 Inference Speed: ~8.0ms per image.
 
 🖼️ Inference Results
+
 The following results demonstrate the model's performance on the unseen, enhanced test set:
 
 The model successfully identifies coral clusters with confidence scores up to 65%, effectively distinguishing between healthy (cyan) and bleached (blue) colonies despite the presence of biological noise (fish, shadows).
 
 📂 Project Structure
+
 Model_Training.ipynb: The primary training environment.
 
 Inference_Verification.ipynb: Dedicated notebook for CLAHE enhancement, Hashing, and final testing.
